@@ -16,7 +16,7 @@ The CoNSeP dataset as used in our paper was pbuliced in: Hover-Net: Simultaneous
 
 The MoNuSeg dataset as used in our paper was pbuliced in: A Dataset and a Technique for Generalized Nuclear Segmentation for Computational Pathology
 
-The CoNSeP dataset as used in our paper was pbuliced in:  Methods for segmentation and classification of digital microscopy tissue images
+The CPM-17 dataset as used in our paper was pbuliced in:  Methods for segmentation and classification of digital microscopy tissue images
 
 
 ##  Triple U-net
