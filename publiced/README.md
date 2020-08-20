@@ -22,7 +22,7 @@ To train the network, first modify `Config.py` to specify the data to be trained
 Note that the original image and the corresponding GT and contour should have the same file name. <br/>
 And then execute the command in liunx: <br/>
 `python main.py --epoch 150 --train 1` <br/>
---train 1 means training --train 0 means testing.The number of GPU number is 1 by default.
+`--train 1` means training `--train 0` means testing.The number of GPU number is 1 by default.
 
 ## Testing 
 
@@ -32,5 +32,5 @@ When performing the Testing process, first modify `Config.py` to specify the dat
 Note that the testing image and the corresponding GT should have the same file name. <br/>
 And then execute the command in liunx: <br/>
 `python main.py  --train 0` <br/>
---train 1 means training --train 0 means testing.The number of GPU number is 1 by default. <br/>
+`--train 1` means training `--train 0` means testing.The number of GPU number is 1 by default. <br/>
 
