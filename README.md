@@ -7,7 +7,7 @@ The code of Triple U-net: Hematoxylin-aware Nuclei Segmentation with Progressive
 
 [Link](https://www.sciencedirect.com/science/article/abs/pii/S136184152030150X) to Medical Image Analysis paper. 
 
-## Set Up requirements
+## Set up requirements
 The version information of Triple U-net,please refer to requirements.txt
 
 ## Dataset
