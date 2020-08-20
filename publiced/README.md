@@ -15,13 +15,22 @@ To use the models, modify `Config.py` and run with linux commands.
 
 ## Training 
 
-To train the network, first modify `Config.py` to specify the data to be trained, and then execute the command in liunx: <br/>
+To train the network, first modify `Config.py` to specify the data to be trained, 
+`self.train_data_path`  :is the dir of training images
+`self.edg_path`         :is the dir of the contour of all the images, including training images and testing images
+`self.label_path`       :is the dir of the ground truth of all the images, including training images and testing images
+Note that the original image and the corresponding GT and contour should have the same file name.
+And then execute the command in liunx: <br/>
 `python main.py --epoch 150 --train 1` <br/>
 --train 1 means training --train 0 means testing.The number of GPU number is 1 by default.
 
 ## Testing 
 
-When performing the Testing process, first modify `Config.py` to specify the data and the weight file to be loaded, and then execute the command in liunx: <br/>
+When performing the Testing process, first modify `Config.py` to specify the data and the weight file to be loaded,
+`self.test_data_path`  :is the path of testing images
+`self.model_path`      :is the weight file need to be loaded
+Note that the testing image and the corresponding GT should have the same file name.
+and then execute the command in liunx: <br/>
 `python main.py  --train 0` <br/>
 --train 1 means training --train 0 means testing.The number of GPU number is 1 by default.
 
