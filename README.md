@@ -25,7 +25,7 @@ The MoNuSeg dataset is provided by: **A Dataset and a Technique for Generalized 
 
 The CPM-17 dataset is provided by: **Methods for segmentation and classification of digital microscopy tissue images**
 
-##Code
+## Code
 Check the "source/README.md" for more details.
 
 ## Download the Model
