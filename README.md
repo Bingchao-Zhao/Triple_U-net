@@ -1,13 +1,12 @@
 # Triple U-net: Hematoxylin-aware Nuclei Segmentation with Progressive Dense Feature Aggregation
 
-**Triple U-net: Hematoxylin-aware Nuclei Segmentation with Progressive Dense Feature Aggregation**, Bingchao Zhao, Xin Chen, Zhi Li, Zhiwen Yu, Su Yao, Lixu Yan, Yuqian Wang, Zaiyi Liu, Changhong Liang and Chu Han, _Medical Image Analysis,_ 2020.
+**Triple U-net: Hematoxylin-aware Nuclei Segmentation with Progressive Dense Feature Aggregation**, Bingchao Zhao, Xin Chen, Zhi Li, Zhiwen Yu, Su Yao, Lixu Yan, Yuqian Wang, Zaiyi Liu, Changhong Liang and Chu Han, _Medical Image Analysis,_ 2020. [Paper link](https://www.sciencedirect.com/science/article/abs/pii/S136184152030150X)
 
 <br />
 <div align="center">
     <img src="framework.png", width="1000">
 </div>
 
-[Link](https://www.sciencedirect.com/science/article/abs/pii/S136184152030150X) to Medical Image Analysis paper. 
 
 ## Prerequisites
 
