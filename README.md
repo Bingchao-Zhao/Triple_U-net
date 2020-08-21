@@ -4,7 +4,7 @@
 
 <br />
 <div align="center">
-    <img src="image/framework.png", width="1000">
+    <img src="framework.png", width="1000">
 </div>
 
 [Link](https://www.sciencedirect.com/science/article/abs/pii/S136184152030150X) to Medical Image Analysis paper. 
