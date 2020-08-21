@@ -28,7 +28,7 @@ And then execute the command in linux: <br/>
 
 When performing the Testing process, first modify `Config.py` to specify the data and the weight file to be loaded, <br/>
 `self.test_data_path`  :is the path of testing images <br/>
-`self.model_path`      :is the weight file need to be loaded <br/>
+`self.model_path`      :is the model file need to be loaded <br/>
 `self.save_path`       :is the forder to save the prediction maps, but have to make by yourself <br/>
 Note that the testing image and the corresponding GT should have the same file name, but in different folders. <br/>
 And then execute the command in linux: <br/>
