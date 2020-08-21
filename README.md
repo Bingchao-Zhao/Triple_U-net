@@ -11,12 +11,12 @@
 
 ## Prerequisites
 
-python==3.6
-torch==1.3.0
-opencv-python==4.1.2.30
-scikit-image
-matplotlib
-numpy 
+*python==3.6
+*torch==1.3.0
+*opencv-python==4.1.2.30
+*scikit-image
+*matplotlib
+*numpy 
 
 ## Dataset
 
@@ -29,6 +29,7 @@ The CPM-17 dataset is provided by: **Methods for segmentation and classification
 ## Download the Model
 
 You can download our trained model via the following Google Drive link.
+
 *[Model uploading]()
 
 ## Citation
