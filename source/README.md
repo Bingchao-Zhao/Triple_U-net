@@ -30,6 +30,7 @@ And then execute the command in linux: <br/>
 When performing the Testing process, first modify `Config.py` to specify the data and the trained model to be loaded, <br/>
 `self.test_data_path`  :is the path of testing images <br/>
 `self.model_path`      :is the trained model file need to be loaded <br/>
+
 _Note that the testing image and the corresponding GT should have the same file name._ <br/>
 
 And then execute the command in linux: <br/>
