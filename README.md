@@ -9,17 +9,27 @@
 
 [Link](https://www.sciencedirect.com/science/article/abs/pii/S136184152030150X) to Medical Image Analysis paper. 
 
-## Set up requirements
-The version information of Triple U-net,please refer to requirements.txt
+## Prerequisites
+
+python==3.6
+torch==1.3.0
+opencv-python==4.1.2.30
+scikit-image
+matplotlib
+numpy 
 
 ## Dataset
 
-The CoNSeP dataset is provided by: Hover-Net: Simultaneous segmentation and classification of nuclei in multi-tissue histology images
+The CoNSeP dataset is provided by: **Hover-Net: Simultaneous segmentation and classification of nuclei in multi-tissue histology images**
 
-The MoNuSeg dataset is provided by: A Dataset and a Technique for Generalized Nuclear Segmentation for Computational Pathology
+The MoNuSeg dataset is provided by: **A Dataset and a Technique for Generalized Nuclear Segmentation for Computational Pathology**
 
-The CPM-17 dataset is provided by: Methods for segmentation and classification of digital microscopy tissue images
+The CPM-17 dataset is provided by: **Methods for segmentation and classification of digital microscopy tissue images**
 
+## Download the Model
+
+You can download our trained model via the following Google Drive link.
+*[Model uploading]()
 
 ## Citation
 
