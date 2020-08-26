@@ -32,7 +32,9 @@ Check the "source/README.md" for more details.
 
 You can download our trained model via the following Google Drive link.
 
-[Model uploading]()
+[Google Drive](https://drive.google.com/file/d/1C2Zff0Y3xQ4nVJ3AVhv5neCYKx2qeE15/view?usp=sharing)
+
+[Baidu](https://pan.baidu.com/s/1uSYcHHcyitXUfrQclFmWtg) Pin: yaib
 
 ## Citation
 
