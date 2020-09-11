@@ -16,7 +16,6 @@ class trainGenerator(Dataset):
         self.data_dir   =   data_dir
         self.label_dir  =   label_dir
         self.edge_dir  =   edge_dir
-        self.feature_dir=   '/home/zhaobingchao/data/code/unet/myresunet/feature'
         self.transform  =   transform
         self.img_ids    =   sorted(os.listdir(self.data_dir))
         self.error_name =   True
