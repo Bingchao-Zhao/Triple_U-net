@@ -42,8 +42,7 @@ class trainGenerator(Dataset):
         mask_ids    = self.img_ids[index]
         imgFile     = os.path.join(self.label_dir, mask_ids)
         mask        = skimage.io.imread(imgFile)
-        if len(np.shape(mask))==3:
-            mask=mask[0,:,:]
+
         if no_tensor:
             return mask
         return torch.FloatTensor(mask>0)
@@ -54,8 +53,7 @@ class trainGenerator(Dataset):
         
         imgFile     = os.path.join(self.edge_dir, feat_ids)
         mask        = skimage.io.imread(imgFile)
-        if len(np.shape(mask))==3:
-            mask=mask[0,:,:]
+
         if no_tensor:
             return mask
         return torch.FloatTensor(mask>0)
