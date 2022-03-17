@@ -1,3 +1,5 @@
+#the aji and PQ metrics this copy from HoVer-net 
+#https://www.sciencedirect.com/science/article/abs/pii/S1361841519301045?via%3Dihub
 import numpy as np
 from sklearn.metrics import precision_score, recall_score, f1_score
 from skimage.measure import label
@@ -20,6 +22,8 @@ def get_fast_aji(true, pred):
     """
     true = np.copy(true) # ? do we need this
     pred = np.copy(pred)
+    true = label(true, background=0)
+    pred = label(pred, background=0)
     true = np.array(true,dtype='uint8')
     pred = np.array(pred,dtype='uint8')
     true_id_list = list(np.unique(true))
